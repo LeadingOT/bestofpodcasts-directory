@@ -21,11 +21,13 @@ const schema = {
   description: listing.description,
   url: listing.url,
   applicationCategory: listing.category,
-  offers: {
-    '@type': 'Offer',
-    price: listing.pricing.startingPrice || '0',
-    priceCurrency: 'USD',
-  },
+  ...(listing.pricing && {
+    offers: {
+      '@type': 'Offer',
+      price: listing.pricing.startingPrice || '0',
+      priceCurrency: 'USD',
+    },
+  }),
   ...(listing.rating && {
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -41,12 +43,12 @@ const faqs = [
     question: `What is ${listing.name}?`,
     answer: listing.description,
   },
-  {
+  ...(listing.pricing ? [{
     question: `How much does ${listing.name} cost?`,
     answer: listing.pricing.startingPrice
       ? `${listing.name} starts at ${listing.pricing.startingPrice}. The pricing model is ${listing.pricing.model}.`
       : `${listing.name} offers a ${listing.pricing.model} pricing model.`,
-  },
+  }] : []),
   {
     question: `What are the main features of ${listing.name}?`,
     answer: `Key features include: ${listing.features.join(', ')}.`,
@@ -125,13 +127,15 @@ const faqs = [
     )}
 
     <!-- Pricing -->
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-3">Pricing</h2>
-      <div class="bg-gray-50 rounded-lg p-4">
-        <p><strong>Model:</strong> {listing.pricing.model}</p>
-        {listing.pricing.startingPrice && <p><strong>Starting at:</strong> {listing.pricing.startingPrice}</p>}
-      </div>
-    </section>
+    {listing.pricing && (
+      <section class="mb-8">
+        <h2 class="text-xl font-semibold mb-3">Pricing</h2>
+        <div class="bg-gray-50 rounded-lg p-4">
+          <p><strong>Model:</strong> {listing.pricing.model}</p>
+          {listing.pricing.startingPrice && <p><strong>Starting at:</strong> {listing.pricing.startingPrice}</p>}
+        </div>
+      </section>
+    )}
 
     <!-- Tags -->
     <div class="flex flex-wrap gap-2 mb-8">

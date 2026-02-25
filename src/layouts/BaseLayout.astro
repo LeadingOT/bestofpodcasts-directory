@@ -39,6 +39,18 @@ const siteUrl = import.meta.env.SITE || 'https://bestofpodcasts.com';
       <script type="application/ld+json" set:html={JSON.stringify(schema)} />
     )}
 
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Google Search Console -->
+    <meta name="google-site-verification" content="GSC_VERIFICATION_CODE" />
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>

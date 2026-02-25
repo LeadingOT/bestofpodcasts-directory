@@ -1,0 +1,36 @@
+{
+  "name": "SmartLess",
+  "slug": "smartless",
+  "tagline": "Three friends surprise each other with mystery celebrity guests",
+  "description": "SmartLess is a podcast featuring Jason Bateman, Sean Hayes, and Will Arnett. Each episode features one of the hosts surprising the others with a mystery guest, leading to unscripted and hilarious conversations.",
+  "category": "Comedy",
+  "host": "Jason Bateman, Sean Hayes, Will Arnett",
+  "url": "https://www.smartless.com",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/5fYvJbHF9hs1tEPaScRqwp",
+    "apple": "https://podcasts.apple.com/us/podcast/smartless/id1521578868"
+  },
+  "features": [
+    "Mystery guest format",
+    "A-list celebrity interviews",
+    "Three hilarious hosts",
+    "Unscripted banter",
+    "Weekly releases"
+  ],
+  "pros": [
+    "Fantastic chemistry between hosts",
+    "Consistently funny",
+    "High-profile guests"
+  ],
+  "cons": [
+    "Sometimes feels like an inside joke",
+    "Can be too casual for some"
+  ],
+  "rating": 4.6,
+  "episodeCount": 310,
+  "frequency": "Weekly",
+  "averageDuration": "50 minutes",
+  "firstEpisode": "2020-07-20",
+  "lastUpdated": "2026-02-24",
+  "tags": ["comedy", "interviews", "entertainment", "celebrities"]
+}

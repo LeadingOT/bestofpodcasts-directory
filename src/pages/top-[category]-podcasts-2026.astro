@@ -1,0 +1,141 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const listings = await getCollection('listings');
+  const categories = [...new Set(listings.map((l) => l.data.category))];
+  return categories.map((cat) => ({
+    params: { category: cat.toLowerCase().replace(/\s+/g, '-') },
+    props: {
+      category: cat,
+      listings: listings.filter((l) => l.data.category === cat),
+    },
+  }));
+}
+
+const { category, listings } = Astro.props;
+// Sort by rating desc
+const topRated = listings.sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `Top ${category} Podcasts 2026`,
+  description: `The definitive list of top ${category.toLowerCase()} podcasts for 2026, ranked by listener ratings.`,
+};
+
+const currentYear = 2026;
+---
+
+<BaseLayout
+  title={`Top ${category} Podcasts ${currentYear} | Ranked & Reviewed`}
+  description={`Looking for the best ${category.toLowerCase()} podcasts of ${currentYear}? We've ranked the top ${listings.length} shows based on quality, consistency, and listener reviews.`}
+  schema={schema}
+>
+  <article class="max-w-5xl mx-auto">
+    <header class="text-center py-10 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl mb-12 px-4">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Top {category} Podcasts {currentYear}</h1>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        The definitive ranking of the most influential and engaging {category.toLowerCase()} podcasts you need to listen to this year.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Main Content: Rankings -->
+      <div class="lg:col-span-2 space-y-8">
+        <section>
+          <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
+            <span class="bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full">Editor's Choice</span>
+            The Rankings
+          </h2>
+          
+          <div class="space-y-6">
+            {topRated.map((podcast, index) => (
+              <div class="flex flex-col sm:flex-row gap-4 p-5 border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition-shadow bg-white">
+                <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-gray-900 text-white rounded-full font-bold text-xl">
+                  #{index + 1}
+                </div>
+                <div class="flex-1">
+                  <div class="flex justify-between items-start">
+                    <div>
+                      <h3 class="text-xl font-bold text-gray-900">
+                        <a href={`/listing/${podcast.data.slug}`} class="hover:text-blue-600 transition-colors">
+                          {podcast.data.name}
+                        </a>
+                      </h3>
+                      <p class="text-sm text-gray-500 mb-2">Hosted by {podcast.data.host}</p>
+                    </div>
+                    {podcast.data.rating && (
+                      <div class="flex items-center bg-yellow-50 px-2 py-1 rounded">
+                        <span class="text-yellow-500 mr-1">★</span>
+                        <span class="font-bold text-gray-700">{podcast.data.rating.toFixed(1)}</span>
+                      </div>
+                    )}
+                  </div>
+                  
+                  <p class="text-gray-600 mb-3 line-clamp-2">{podcast.data.description}</p>
+                  
+                  <div class="flex flex-wrap gap-2 text-xs">
+                    {podcast.data.frequency && (
+                      <span class="px-2 py-1 bg-gray-100 rounded text-gray-600">📅 {podcast.data.frequency}</span>
+                    )}
+                    {podcast.data.features && podcast.data.features.slice(0, 2).map(feature => (
+                      <span class="px-2 py-1 bg-blue-50 text-blue-700 rounded">✓ {feature}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+
+      <!-- Sidebar: Stats & Guide -->
+      <div class="space-y-8">
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100 sticky top-4">
+          <h3 class="font-bold text-lg mb-4">Category Stats</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex justify-between">
+              <span class="text-gray-600">Total Shows:</span>
+              <span class="font-semibold">{listings.length}</span>
+            </li>
+            <li class="flex justify-between">
+              <span class="text-gray-600">Avg Rating:</span>
+              <span class="font-semibold">
+                {(listings.reduce((acc, curr) => acc + (curr.data.rating || 0), 0) / listings.length).toFixed(1)}/5.0
+              </span>
+            </li>
+            <li class="flex justify-between">
+              <span class="text-gray-600">Updated:</span>
+              <span class="font-semibold">Feb {currentYear}</span>
+            </li>
+          </ul>
+
+          <hr class="my-6 border-gray-200" />
+          
+          <h3 class="font-bold text-lg mb-4">Quick Links</h3>
+          <ul class="space-y-2 text-sm text-blue-600">
+            <li><a href="/categories" class="hover:underline">Browse all Categories</a></li>
+            <li><a href="/blog/how-to-choose-podcast" class="hover:underline">How to Choose a Podcast</a></li>
+            <li><a href="/blog/best-podcasts-2026" class="hover:underline">Best of 2026 Guide</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <section class="mt-16 prose prose-lg max-w-none">
+      <h2>Trends in {category} Podcasts for {currentYear}</h2>
+      <p>
+        The {category.toLowerCase()} landscape has evolved significantly this year. We're seeing a shift towards higher production values 
+        and more interactive formats. Listeners in the {category.toLowerCase()} space are demanding more in-depth research and 
+        actionable takeaways.
+      </p>
+      <p>
+        Whether you're a long-time fan or new to the genre, this list represents the absolute best {category.toLowerCase()} content 
+        available right now.
+      </p>
+    </section>
+  </article>
+</BaseLayout>

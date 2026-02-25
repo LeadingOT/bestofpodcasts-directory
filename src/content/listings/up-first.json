@@ -1,0 +1,36 @@
+{
+  "name": "Up First",
+  "slug": "up-first",
+  "tagline": "NPR's morning news brief in 15 minutes",
+  "description": "NPR's Up First is the news you need to start your day. The biggest stories and ideas — from politics to pop culture — in 10-15 minutes. Updated by 6 a.m. ET every weekday, so you can start your day informed.",
+  "category": "News",
+  "host": "NPR",
+  "url": "https://www.npr.org/podcasts/510318/up-first",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/5cBKSyAqH8bwnW82Cr26Zm",
+    "apple": "https://podcasts.apple.com/us/podcast/up-first/id1222114325"
+  },
+  "features": [
+    "Quick morning news briefing",
+    "Updated daily before 6 AM",
+    "Multiple stories covered",
+    "NPR journalism quality",
+    "Concise format"
+  ],
+  "pros": [
+    "Perfect for morning commute",
+    "Balanced reporting",
+    "Consistent schedule"
+  ],
+  "cons": [
+    "Surface-level coverage",
+    "US-focused"
+  ],
+  "rating": 4.5,
+  "episodeCount": 2800,
+  "frequency": "Daily",
+  "averageDuration": "12 minutes",
+  "firstEpisode": "2017-02-13",
+  "lastUpdated": "2026-02-24",
+  "tags": ["news", "daily", "morning", "npr", "current-events"]
+}

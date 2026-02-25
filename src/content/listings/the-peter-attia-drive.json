@@ -1,0 +1,37 @@
+{
+  "name": "The Peter Attia Drive",
+  "slug": "the-peter-attia-drive",
+  "tagline": "Deep dives into longevity, healthspan, and optimization",
+  "description": "Dr. Peter Attia explores the latest science of longevity, metabolic health, and human performance. The podcast features in-depth interviews with world-class experts on topics ranging from exercise and nutrition to sleep and cognitive health.",
+  "category": "Health",
+  "host": "Dr. Peter Attia",
+  "url": "https://peterattiamd.com/podcast",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/7HFHNfPNCK0gLi2c6OErS9",
+    "apple": "https://podcasts.apple.com/us/podcast/the-drive-with-peter-attia/id1400828889"
+  },
+  "features": [
+    "Longevity and healthspan focus",
+    "Expert medical interviews",
+    "Deep scientific discussions",
+    "Practical health strategies",
+    "Premium subscriber content"
+  ],
+  "pros": [
+    "Extremely thorough and evidence-based",
+    "World-class expert guests",
+    "Nuanced health discussions"
+  ],
+  "cons": [
+    "Very technical and dense",
+    "Long episodes (2+ hours)",
+    "Some content behind paywall"
+  ],
+  "rating": 4.8,
+  "episodeCount": 320,
+  "frequency": "Weekly",
+  "averageDuration": "110 minutes",
+  "firstEpisode": "2018-10-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["health", "longevity", "medicine", "science", "optimization"]
+}

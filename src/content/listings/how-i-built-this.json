@@ -1,0 +1,36 @@
+{
+  "name": "How I Built This",
+  "slug": "how-i-built-this",
+  "tagline": "Inspiring stories from the world's best-known entrepreneurs",
+  "description": "Guy Raz dives into the stories behind some of the world's best known companies. How I Built This weaves a narrative journey about innovators, entrepreneurs and idealists—and the movements they built.",
+  "category": "Business",
+  "host": "Guy Raz",
+  "url": "https://www.npr.org/podcasts/510313/how-i-built-this",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/6E709HRH7XaiZrMfgtNCun",
+    "apple": "https://podcasts.apple.com/us/podcast/how-i-built-this/id1150510297"
+  },
+  "features": [
+    "Interviews with famous founders",
+    "Behind-the-scenes business stories",
+    "NPR quality production",
+    "Actionable insights",
+    "Inspiring narratives"
+  ],
+  "pros": [
+    "World-class guests and stories",
+    "Guy Raz is an excellent interviewer",
+    "Educational and motivating"
+  ],
+  "cons": [
+    "Can focus too much on outlier success",
+    "Episodes can be lengthy"
+  ],
+  "rating": 4.8,
+  "episodeCount": 520,
+  "frequency": "Weekly",
+  "averageDuration": "60 minutes",
+  "firstEpisode": "2016-09-05",
+  "lastUpdated": "2026-02-24",
+  "tags": ["business", "entrepreneurship", "inspiration", "interviews"]
+}

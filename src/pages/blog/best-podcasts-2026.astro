@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allListings = await getCollection('listings');
+const topRated = allListings
+  .filter(l => l.data.rating && l.data.rating >= 4.7)
+  .sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0))
+  .slice(0, 10);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: 'The Best Podcasts of 2026: Must-Listen Shows Across All Categories',
+  datePublished: '2026-02-24',
+  author: {
+    '@type': 'Organization',
+    name: 'Best of Podcasts'
+  }
+};
+---
+
+<BaseLayout
+  title="The Best Podcasts of 2026 | Top-Rated Shows Worth Your Time"
+  description="Discover the highest-rated podcasts of 2026 across all genres. From true crime to business, comedy to health - these are the must-listen shows."
+  schema={schema}
+>
+  <article class="max-w-4xl mx-auto prose prose-lg">
+    <header class="mb-8">
+      <time class="text-sm text-gray-500">February 24, 2026</time>
+      <h1 class="text-4xl font-bold mt-2 mb-4">The Best Podcasts of 2026: Must-Listen Shows Across All Categories</h1>
+      <p class="text-xl text-gray-600">Discover the top-rated podcasts that are dominating the audio landscape in 2026.</p>
+    </header>
+
+    <section class="mb-8">
+      <h2>Why Podcasts Matter More Than Ever</h2>
+      <p>
+        In 2026, podcasts have become an essential part of how we consume information and entertainment. Whether you're commuting, 
+        working out, or just relaxing, there's a podcast for every moment and interest. With over 5 million podcasts available, 
+        finding the right ones can be overwhelming.
+      </p>
+      <p>
+        We've curated this list of the best podcasts based on ratings, production quality, consistency, and listener engagement. 
+        These shows represent the gold standard of podcast excellence.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2>Top 10 Highest-Rated Podcasts of 2026</h2>
+      <div class="not-prose space-y-4">
+        {topRated.map((podcast, index) => (
+          <div class="border border-gray-200 rounded-lg p-5">
+            <div class="flex items-start gap-4">
+              <span class="text-3xl font-bold text-gray-300">#{index + 1}</span>
+              <div class="flex-1">
+                <h3 class="text-xl font-bold mb-2">
+                  <a href={`/listing/${podcast.data.slug}`} class="hover:text-blue-600">
+                    {podcast.data.name}
+                  </a>
+                </h3>
+                <p class="text-sm text-gray-600 mb-2">{podcast.data.tagline}</p>
+                <div class="flex items-center gap-3">
+                  <span class="text-sm bg-gray-100 px-2 py-1 rounded">{podcast.data.category}</span>
+                  <span class="text-sm text-yellow-600">★ {podcast.data.rating?.toFixed(1)}</span>
+                  <span class="text-sm text-gray-500">Hosted by {podcast.data.host}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2>Best Podcasts by Category</h2>
+      
+      <h3>True Crime</h3>
+      <p>
+        True crime podcasts continue to dominate in 2026. <strong>Serial</strong> remains the gold standard with its deep 
+        investigative journalism, while <strong>My Favorite Murder</strong> and <strong>Crime Junkie</strong> offer different 
+        approaches—comedy-infused and concise respectively. These shows prove that true crime can be both respectful and compelling.
+      </p>
+
+      <h3>Business & Entrepreneurship</h3>
+      <p>
+        For aspiring entrepreneurs and business enthusiasts, <strong>How I Built This</strong> by Guy Raz offers unparalleled 
+        insights into the stories behind successful companies. <strong>The Tim Ferriss Show</strong> deconstructs world-class 
+        performers to extract actionable tactics you can apply immediately.
+      </p>
+
+      <h3>Health & Wellness</h3>
+      <p>
+        <strong>Huberman Lab</strong> has revolutionized health podcasting with science-backed protocols for sleep, focus, and 
+        performance. Dr. Andrew Huberman's ability to make neuroscience accessible has made it one of the most popular podcasts 
+        of 2026. For longevity-focused listeners, <strong>The Peter Attia Drive</strong> offers deep dives into metabolic health.
+      </p>
+
+      <h3>Comedy</h3>
+      <p>
+        <strong>Conan O'Brien Needs a Friend</strong> and <strong>SmartLess</strong> prove that celebrity podcasts can be 
+        genuinely funny and insightful. The unscripted nature of these conversations creates authentic moments you won't find 
+        in traditional media.
+      </p>
+    </section>
+
+    <section class="mb-8">
+      <h2>How to Get Started</h2>
+      <p>
+        The best way to discover your favorite podcasts is to start with one show that matches your interests, then explore 
+        related recommendations. Most podcast apps offer personalized suggestions based on your listening history.
+      </p>
+      <p>
+        Browse our <a href="/" class="text-blue-600 hover:underline">full directory</a> to find podcasts by category, or use 
+        our comparison tools to see how shows stack up against each other.
+      </p>
+    </section>
+
+    <section>
+      <h2>Conclusion</h2>
+      <p>
+        The podcasts listed above represent the best of what audio storytelling has to offer in 2026. Whether you're looking 
+        for education, entertainment, or inspiration, there's a show on this list that will enrich your listening experience.
+      </p>
+      <p>
+        Remember: the best podcast is the one you'll actually listen to. Start with one that resonates with you, and let 
+        your curiosity guide you from there.
+      </p>
+    </section>
+  </article>
+</BaseLayout>

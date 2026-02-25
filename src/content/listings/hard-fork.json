@@ -1,0 +1,36 @@
+{
+  "name": "Hard Fork",
+  "slug": "hard-fork",
+  "tagline": "The New York Times tech podcast about Silicon Valley and beyond",
+  "description": "Hard Fork is a show about the future that's already here. Each week, journalists Kevin Roose and Casey Newton explore and make sense of the latest in the rapidly changing world of tech.",
+  "category": "Technology",
+  "host": "Kevin Roose & Casey Newton",
+  "url": "https://www.nytimes.com/column/hard-fork",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/44fllCS2FTFr2x2ljgcqbT",
+    "apple": "https://podcasts.apple.com/us/podcast/hard-fork/id1528594034"
+  },
+  "features": [
+    "In-depth tech analysis",
+    "Weekly tech news roundup",
+    "Expert interviews",
+    "AI and crypto coverage",
+    "NYT journalism quality"
+  ],
+  "pros": [
+    "Balanced tech journalism",
+    "Accessible for non-techies",
+    "Great host chemistry"
+  ],
+  "cons": [
+    "Sometimes surface-level for experts",
+    "Can be too meta about tech culture"
+  ],
+  "rating": 4.6,
+  "episodeCount": 180,
+  "frequency": "Weekly",
+  "averageDuration": "55 minutes",
+  "firstEpisode": "2022-10-13",
+  "lastUpdated": "2026-02-24",
+  "tags": ["technology", "ai", "silicon-valley", "journalism", "weekly"]
+}

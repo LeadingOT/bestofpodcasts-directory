@@ -1,0 +1,36 @@
+{
+  "name": "The Happiness Lab",
+  "slug": "the-happiness-lab",
+  "tagline": "Science-based insights to help you find happiness",
+  "description": "Dr. Laurie Santos from Yale University brings the science of happiness to life in this podcast. Drawing on cutting-edge research from psychology and behavioral economics, she reveals what really makes us happy and how we can apply those insights.",
+  "category": "Self-Improvement",
+  "host": "Dr. Laurie Santos",
+  "url": "https://www.pushkin.fm/podcasts/the-happiness-lab-with-dr-laurie-santos",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/0vJHG7iFZ4BxINbEZKEsEb",
+    "apple": "https://podcasts.apple.com/us/podcast/the-happiness-lab-with-dr-laurie-santos/id1474245040"
+  },
+  "features": [
+    "Science-backed happiness strategies",
+    "Yale professor expertise",
+    "Practical applications",
+    "Guest expert interviews",
+    "Seasonal format"
+  ],
+  "pros": [
+    "Research-based insights",
+    "Actionable advice",
+    "Engaging and accessible"
+  ],
+  "cons": [
+    "Seasonal (not year-round)",
+    "Can be academic at times"
+  ],
+  "rating": 4.7,
+  "episodeCount": 95,
+  "frequency": "Seasonal",
+  "averageDuration": "40 minutes",
+  "firstEpisode": "2019-09-02",
+  "lastUpdated": "2026-02-24",
+  "tags": ["self-improvement", "happiness", "science", "psychology"]
+}

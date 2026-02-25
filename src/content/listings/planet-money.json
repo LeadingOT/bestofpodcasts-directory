@@ -1,0 +1,36 @@
+{
+  "name": "Planet Money",
+  "slug": "planet-money",
+  "tagline": "The economy explained in fun, accessible stories",
+  "description": "The economy explained. Imagine you could call up a friend and say, 'Meet me at the bar and tell me what's going on with the economy.' Now imagine that's a fun evening. That's what we're going for at Planet Money.",
+  "category": "Business",
+  "host": "NPR",
+  "url": "https://www.npr.org/sections/money",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/4FYpq3lSeQMAhqNI81O0Cn",
+    "apple": "https://podcasts.apple.com/us/podcast/planet-money/id290783428"
+  },
+  "features": [
+    "Economics made entertaining",
+    "Short, digestible episodes",
+    "Creative storytelling",
+    "Current economic events",
+    "Award-winning journalism"
+  ],
+  "pros": [
+    "Makes complex topics accessible",
+    "Engaging and fun format",
+    "High-quality NPR production"
+  ],
+  "cons": [
+    "Sometimes oversimplifies",
+    "US-centric perspective"
+  ],
+  "rating": 4.6,
+  "episodeCount": 1150,
+  "frequency": "Twice weekly",
+  "averageDuration": "25 minutes",
+  "firstEpisode": "2008-09-06",
+  "lastUpdated": "2026-02-24",
+  "tags": ["business", "economics", "education", "news"]
+}

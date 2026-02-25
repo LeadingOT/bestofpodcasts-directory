@@ -1,0 +1,36 @@
+{
+  "name": "99% Invisible",
+  "slug": "99-percent-invisible",
+  "tagline": "A tiny radio show about design, architecture & the 99% invisible activity that shapes our world",
+  "description": "99% Invisible is about all the thought that goes into the things we don't think about — the unnoticed architecture and design that shape our world. Hosted by Roman Mars, it's one of the most popular architecture and design shows ever.",
+  "category": "Education",
+  "host": "Roman Mars",
+  "url": "https://99percentinvisible.org",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/2VRS1IJCTn2Nlkg33ZVfkM",
+    "apple": "https://podcasts.apple.com/us/podcast/99-invisible/id394775318"
+  },
+  "features": [
+    "Design and architecture stories",
+    "Hidden history of everyday things",
+    "Beautiful sound design",
+    "Weekly episodes",
+    "Crowdfunded independence"
+  ],
+  "pros": [
+    "Eye-opening perspectives on design",
+    "Exceptional production quality",
+    "Makes you see the world differently"
+  ],
+  "cons": [
+    "Very niche topics sometimes",
+    "Can be overly detailed"
+  ],
+  "rating": 4.7,
+  "episodeCount": 580,
+  "frequency": "Weekly",
+  "averageDuration": "35 minutes",
+  "firstEpisode": "2010-09-29",
+  "lastUpdated": "2026-02-24",
+  "tags": ["education", "design", "architecture", "storytelling"]
+}

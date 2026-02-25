@@ -1,0 +1,36 @@
+{
+  "name": "The Daily Show: Ears Edition",
+  "slug": "the-daily-show-ears-edition",
+  "tagline": "The Daily Show's take on the headlines in audio form",
+  "description": "The Daily Show: Ears Edition brings you the audio from each night's episode of The Daily Show. Get the day's top stories, political satire, and comedy from Jon Stewart and the team in convenient podcast form.",
+  "category": "Comedy",
+  "host": "Jon Stewart",
+  "url": "https://www.cc.com/shows/the-daily-show",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/4AQ6iyKrmVFRm7M2T2vpMO",
+    "apple": "https://podcasts.apple.com/us/podcast/the-daily-show-ears-edition/id80550326"
+  },
+  "features": [
+    "Daily news satire",
+    "Political comedy",
+    "Current events coverage",
+    "TV show audio adaptation",
+    "Short daily episodes"
+  ],
+  "pros": [
+    "Smart political commentary",
+    "Consistently funny",
+    "Stay informed while laughing"
+  ],
+  "cons": [
+    "Audio-only misses visual gags",
+    "US-focused political content"
+  ],
+  "rating": 4.5,
+  "episodeCount": 3500,
+  "frequency": "Daily (weekdays)",
+  "averageDuration": "30 minutes",
+  "firstEpisode": "2015-06-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["comedy", "news", "politics", "satire", "daily"]
+}

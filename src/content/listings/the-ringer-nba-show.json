@@ -1,0 +1,36 @@
+{
+  "name": "The Ringer NBA Show",
+  "slug": "the-ringer-nba-show",
+  "tagline": "In-depth NBA analysis and commentary",
+  "description": "The Ringer NBA Show provides comprehensive NBA coverage including game recaps, player analysis, trade rumors, and playoff coverage. Hosted by a rotating cast of Ringer staff, it's essential listening for serious basketball fans.",
+  "category": "Sports",
+  "host": "The Ringer Staff",
+  "url": "https://www.theringer.com/nba",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/5Uk5qGZ0JfRmIYgZKMRsJL",
+    "apple": "https://podcasts.apple.com/us/podcast/the-ringer-nba-show/id1109271715"
+  },
+  "features": [
+    "Multiple episodes per week",
+    "Game recaps and previews",
+    "Trade deadline coverage",
+    "Playoff deep dives",
+    "Expert analysis"
+  ],
+  "pros": [
+    "Knowledgeable and entertaining hosts",
+    "Comprehensive NBA coverage",
+    "Timely and relevant"
+  ],
+  "cons": [
+    "US NBA only",
+    "Can be too inside-baseball"
+  ],
+  "rating": 4.5,
+  "episodeCount": 1600,
+  "frequency": "Multiple weekly",
+  "averageDuration": "55 minutes",
+  "firstEpisode": "2016-10-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["sports", "basketball", "nba", "analysis"]
+}

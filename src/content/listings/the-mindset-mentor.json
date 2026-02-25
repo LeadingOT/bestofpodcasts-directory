@@ -1,0 +1,36 @@
+{
+  "name": "The Mindset Mentor",
+  "slug": "the-mindset-mentor",
+  "tagline": "Daily motivation and mindset coaching",
+  "description": "The Mindset Mentor podcast is a daily show designed to help you master your mindset and create the life you want. Host Rob Dial provides practical tools and strategies for personal growth, motivation, and success in bite-sized daily episodes.",
+  "category": "Motivation",
+  "host": "Rob Dial",
+  "url": "https://robdial.com/podcast",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/1qc7QNfIphIfvZOzdWCNbG",
+    "apple": "https://podcasts.apple.com/us/podcast/the-mindset-mentor/id1270770984"
+  },
+  "features": [
+    "Daily motivational episodes",
+    "Short, actionable content",
+    "Mindset and personal growth focus",
+    "Practical strategies",
+    "Consistent daily format"
+  ],
+  "pros": [
+    "Quick daily motivation",
+    "Actionable advice",
+    "Consistent and reliable"
+  ],
+  "cons": [
+    "Can be repetitive",
+    "Surface-level at times"
+  ],
+  "rating": 4.7,
+  "episodeCount": 2100,
+  "frequency": "Daily (weekdays)",
+  "averageDuration": "15 minutes",
+  "firstEpisode": "2017-07-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["motivation", "mindset", "self-improvement", "daily"]
+}

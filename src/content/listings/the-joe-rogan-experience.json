@@ -1,0 +1,38 @@
+{
+  "name": "The Joe Rogan Experience",
+  "slug": "the-joe-rogan-experience",
+  "tagline": "Long-form conversations with fascinating people",
+  "description": "The Joe Rogan Experience is one of the most popular podcasts in the world. Joe Rogan, a stand-up comedian and UFC commentator, hosts long-form conversations with guests from all walks of life including scientists, athletes, comedians, authors, and more.",
+  "category": "Self-Improvement",
+  "host": "Joe Rogan",
+  "url": "https://www.joerogan.com",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
+    "apple": "https://podcasts.apple.com/us/podcast/the-joe-rogan-experience/id360084272",
+    "youtube": "https://www.youtube.com/@joerogan"
+  },
+  "features": [
+    "3+ hour unedited conversations",
+    "Diverse guest lineup",
+    "Multiple episodes per week",
+    "Video and audio versions",
+    "Unfiltered discussions"
+  ],
+  "pros": [
+    "Incredibly diverse topics and guests",
+    "Authentic, unscripted conversations",
+    "Massive back catalog"
+  ],
+  "cons": [
+    "Very long episodes",
+    "Platform controversies",
+    "Hit-or-miss depending on guest"
+  ],
+  "rating": 4.5,
+  "episodeCount": 2100,
+  "frequency": "Multiple weekly",
+  "averageDuration": "180 minutes",
+  "firstEpisode": "2009-12-24",
+  "lastUpdated": "2026-02-24",
+  "tags": ["self-improvement", "interviews", "comedy", "varied-topics"]
+}

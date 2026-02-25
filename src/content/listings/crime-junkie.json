@@ -1,0 +1,36 @@
+{
+  "name": "Crime Junkie",
+  "slug": "crime-junkie",
+  "tagline": "Concise true crime stories you can binge in one sitting",
+  "description": "Crime Junkie is a weekly podcast hosted by Ashley Flowers, dedicated to giving you a true crime fix. Each episode covers a different true crime case with detailed research presented in a clear, engaging format.",
+  "category": "True Crime",
+  "host": "Ashley Flowers",
+  "url": "https://crimejunkiepodcast.com",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/4U9YTQvkHu0P5vDvwQdmff",
+    "apple": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
+  },
+  "features": [
+    "Weekly true crime cases",
+    "Clean, focused storytelling",
+    "No excessive banter",
+    "Well-researched cases",
+    "Bonus monthly episodes"
+  ],
+  "pros": [
+    "Concise and to-the-point",
+    "Consistent release schedule",
+    "High-quality research"
+  ],
+  "cons": [
+    "Less personality than other shows",
+    "Some controversy over sourcing"
+  ],
+  "rating": 4.5,
+  "episodeCount": 410,
+  "frequency": "Weekly",
+  "averageDuration": "45 minutes",
+  "firstEpisode": "2017-12-16",
+  "lastUpdated": "2026-02-24",
+  "tags": ["true-crime", "weekly", "focused", "binge-worthy"]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Ologies",
+  "slug": "ologies",
+  "tagline": "Ask smart people stupid questions",
+  "description": "Ologies is a podcast where comedian and science correspondent Alie Ward asks smart people about their favorite -ologies (fields of study). From etymology to volcanology, each episode is a deep dive with passionate experts who make their field accessible and fun.",
+  "category": "Science",
+  "host": "Alie Ward",
+  "url": "https://www.alieward.com/ologies",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/5lYFDbUVeJDAnMIXCd9TM7",
+    "apple": "https://podcasts.apple.com/us/podcast/ologies-with-alie-ward/id1278815495"
+  },
+  "features": [
+    "Wide range of scientific fields",
+    "Expert interviews",
+    "Humorous and accessible",
+    "Weekly episodes",
+    "Fact-checking and citations"
+  ],
+  "pros": [
+    "Makes science fun and accessible",
+    "Entertaining host",
+    "Fascinating variety of topics"
+  ],
+  "cons": [
+    "Long episodes (90+ min)",
+    "Host can dominate conversation"
+  ],
+  "rating": 4.7,
+  "episodeCount": 380,
+  "frequency": "Weekly",
+  "averageDuration": "90 minutes",
+  "firstEpisode": "2017-09-05",
+  "lastUpdated": "2026-02-24",
+  "tags": ["science", "education", "comedy", "interviews"]
+}

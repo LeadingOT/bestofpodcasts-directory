@@ -1,0 +1,36 @@
+{
+  "name": "The Tim Ferriss Show",
+  "slug": "the-tim-ferriss-show",
+  "tagline": "Deconstruct world-class performers to find their tactics and tools",
+  "description": "Tim Ferriss interviews world-class performers from eclectic areas (investing, sports, business, art) to extract the tactics, tools, and routines you can use. This podcast has been downloaded over 900 million times.",
+  "category": "Business",
+  "host": "Tim Ferriss",
+  "url": "https://tim.blog/podcast",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/5qSUyCrk9KR69lEiXbjwXM",
+    "apple": "https://podcasts.apple.com/us/podcast/the-tim-ferriss-show/id863897795"
+  },
+  "features": [
+    "In-depth interviews with top performers",
+    "Actionable tactics and tools",
+    "Diverse guest lineup",
+    "Detailed show notes",
+    "Long-form conversations"
+  ],
+  "pros": [
+    "Incredibly well-researched questions",
+    "Amazing variety of guests",
+    "Practical takeaways"
+  ],
+  "cons": [
+    "Very long episodes (2-3 hours)",
+    "Can be dense with information"
+  ],
+  "rating": 4.7,
+  "episodeCount": 720,
+  "frequency": "Twice weekly",
+  "averageDuration": "120 minutes",
+  "firstEpisode": "2014-04-07",
+  "lastUpdated": "2026-02-24",
+  "tags": ["business", "self-improvement", "interviews", "productivity"]
+}

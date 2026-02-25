@@ -1,0 +1,37 @@
+{
+  "name": "Morbid: A True Crime Podcast",
+  "slug": "morbid",
+  "tagline": "True crime with a comedic twist from an autopsy technician and podcaster",
+  "description": "Morbid is a true crime podcast hosted by an autopsy technician and a hairstylist. Ash and Alaina bring their unique perspectives to true crime stories, mixing detailed research with humor and empathy for victims.",
+  "category": "True Crime",
+  "host": "Ash Kelley & Alaina Urquhart",
+  "url": "https://www.audioboom.com/channel/morbid",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/6jf2xdH3gO0EmPBWj2xVmY",
+    "apple": "https://podcasts.apple.com/us/podcast/morbid/id1379959217"
+  },
+  "features": [
+    "True crime with humor",
+    "Autopsy technician insights",
+    "Multiple episodes per week",
+    "Listener tale episodes",
+    "Well-researched cases"
+  ],
+  "pros": [
+    "Engaging and entertaining hosts",
+    "Good balance of detail and humor",
+    "Respectful to victims"
+  ],
+  "cons": [
+    "Episodes can be very long",
+    "Lots of tangents and banter",
+    "Audio quality varies"
+  ],
+  "rating": 4.6,
+  "episodeCount": 450,
+  "frequency": "Three times weekly",
+  "averageDuration": "90 minutes",
+  "firstEpisode": "2018-05-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["true-crime", "comedy", "investigation", "weekly"]
+}

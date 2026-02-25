@@ -1,0 +1,37 @@
+{
+  "name": "Serial",
+  "slug": "serial",
+  "tagline": "The groundbreaking true crime podcast that started it all",
+  "description": "Serial is a podcast from the creators of This American Life, hosted by Sarah Koenig. Each season dives deep into one compelling true story, told over multiple episodes with meticulous reporting and storytelling.",
+  "category": "True Crime",
+  "host": "Sarah Koenig",
+  "url": "https://serialpodcast.org",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/6ll0MwobDt1JW9gYaOONEo",
+    "apple": "https://podcasts.apple.com/us/podcast/serial/id917918570",
+    "website": "https://serialpodcast.org"
+  },
+  "features": [
+    "Deep investigative journalism",
+    "Season-long story arcs",
+    "Award-winning production",
+    "Compelling narratives",
+    "Exclusive interviews"
+  ],
+  "pros": [
+    "Exceptional storytelling and research",
+    "High production quality",
+    "Changed the podcast landscape"
+  ],
+  "cons": [
+    "Seasons can be years apart",
+    "May leave some questions unanswered"
+  ],
+  "rating": 4.8,
+  "episodeCount": 45,
+  "frequency": "Seasonal",
+  "averageDuration": "45 minutes",
+  "firstEpisode": "2014-10-03",
+  "lastUpdated": "2026-02-24",
+  "tags": ["true-crime", "investigative", "storytelling", "award-winning"]
+}

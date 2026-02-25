@@ -1,0 +1,36 @@
+{
+  "name": "On Purpose with Jay Shetty",
+  "slug": "on-purpose",
+  "tagline": "Find your purpose through ancient wisdom and modern science",
+  "description": "Former monk Jay Shetty helps you find purpose, peace and passion in your life through conversations with some of the world's most insightful people. Combining ancient wisdom with modern science and personal stories.",
+  "category": "Self-Improvement",
+  "host": "Jay Shetty",
+  "url": "https://jayshetty.me/podcast",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/5EqqB52m2bsr4k1Ii7sStc",
+    "apple": "https://podcasts.apple.com/us/podcast/on-purpose-with-jay-shetty/id1450994021"
+  },
+  "features": [
+    "Personal growth insights",
+    "Celebrity and expert interviews",
+    "Mindfulness and meditation",
+    "Relationship advice",
+    "Twice-weekly episodes"
+  ],
+  "pros": [
+    "Actionable wisdom",
+    "Positive and uplifting",
+    "Diverse guest lineup"
+  ],
+  "cons": [
+    "Can be overly optimistic",
+    "Some repetitive themes"
+  ],
+  "rating": 4.6,
+  "episodeCount": 470,
+  "frequency": "Twice weekly",
+  "averageDuration": "50 minutes",
+  "firstEpisode": "2019-03-04",
+  "lastUpdated": "2026-02-24",
+  "tags": ["self-improvement", "mindfulness", "wellness", "motivation"]
+}

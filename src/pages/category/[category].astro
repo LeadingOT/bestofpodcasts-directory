@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ListingCard from '../../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const listings = await getCollection('listings');
+  const categories = [...new Set(listings.map((l) => l.data.category))];
+  return categories.map((cat) => ({
+    params: { category: cat.toLowerCase().replace(/\s+/g, '-') },
+    props: {
+      category: cat,
+      listings: listings.filter((l) => l.data.category === cat),
+    },
+  }));
+}
+
+const { category, listings } = Astro.props;
+const topRated = listings.sort((a: any, b: any) => (b.data.rating || 0) - (a.data.rating || 0));
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `Best ${category} Podcasts`,
+  description: `Discover the best ${category.toLowerCase()} podcasts with reviews and ratings.`,
+};
+---
+
+<BaseLayout
+  title={`Best ${category} Podcasts 2026 - Top Rated Shows & Reviews`}
+  description={`Discover the best ${category.toLowerCase()} podcasts of 2026. Compare ${listings.length} top-rated shows with detailed reviews, ratings, and platform links.`}
+  schema={schema}
+>
+  <div class="mb-8">
+    <h1 class="text-4xl font-bold mb-4">Best {category} Podcasts</h1>
+    <p class="text-lg text-gray-600 mb-6">
+      Explore {listings.length} top-rated {category.toLowerCase()} podcasts. Find your next favorite show with detailed reviews, host information, and ratings.
+    </p>
+    {topRated[0] && topRated[0].data.rating && (
+      <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+        <p class="text-sm text-blue-800">
+          🏆 <strong>Top Pick:</strong> <a href={`/listing/${topRated[0].data.slug}`} class="underline hover:text-blue-600">{topRated[0].data.name}</a> ({topRated[0].data.rating.toFixed(1)}★)
+        </p>
+      </div>
+    )}
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    {listings.map((listing: any) => (
+      <ListingCard {...listing.data} />
+    ))}
+  </div>
+
+  <div class="mt-12 prose prose-lg max-w-none">
+    <h2>Why Listen to {category} Podcasts?</h2>
+    <p>
+      {category} podcasts offer engaging content perfect for learning, entertainment, or staying informed. 
+      Whether you're commuting, working out, or relaxing at home, these shows provide valuable insights and compelling storytelling.
+    </p>
+    
+    <h3>What Makes a Great {category} Podcast?</h3>
+    <ul>
+      <li><strong>Expert hosts or compelling storytellers</strong></li>
+      <li><strong>Consistent release schedule</strong> (weekly or more frequent)</li>
+      <li><strong>High production quality</strong> with clear audio</li>
+      <li><strong>Engaging format</strong> that keeps you coming back</li>
+      <li><strong>Unique perspective</strong> or valuable insights</li>
+    </ul>
+
+    <p>
+      Browse all podcasts in our <a href="/">complete directory</a> or check out our 
+      <a href="/blog/best-podcasts-2026">guide to the best podcasts of 2026</a>.
+    </p>
+  </div>
+</BaseLayout>

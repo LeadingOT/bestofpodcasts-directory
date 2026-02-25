@@ -1,0 +1,36 @@
+{
+  "name": "The Moth",
+  "slug": "the-moth",
+  "tagline": "True stories told live without notes",
+  "description": "The Moth is an acclaimed not-for-profit organization dedicated to the art of storytelling. Each episode features true stories told live on stage without notes by people from all walks of life. Stories range from hilarious to heartbreaking.",
+  "category": "Storytelling",
+  "host": "Various",
+  "url": "https://themoth.org",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/1q0bs4N9G0cgQykPT5u9GZ",
+    "apple": "https://podcasts.apple.com/us/podcast/the-moth/id275699983"
+  },
+  "features": [
+    "Live storytelling performances",
+    "Diverse storytellers",
+    "No notes, no scripts",
+    "Weekly episodes",
+    "Award-winning production"
+  ],
+  "pros": [
+    "Authentic human stories",
+    "Emotional and engaging",
+    "Wide variety of perspectives"
+  ],
+  "cons": [
+    "Quality varies by storyteller",
+    "Some stories can be slow"
+  ],
+  "rating": 4.7,
+  "episodeCount": 900,
+  "frequency": "Weekly",
+  "averageDuration": "50 minutes",
+  "firstEpisode": "2009-07-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["storytelling", "live", "true-stories", "performance"]
+}

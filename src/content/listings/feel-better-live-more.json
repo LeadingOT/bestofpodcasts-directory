@@ -1,0 +1,36 @@
+{
+  "name": "Feel Better, Live More",
+  "slug": "feel-better-live-more",
+  "tagline": "Practical health advice from a practicing physician",
+  "description": "Hosted by Dr. Rangan Chatterjee, Feel Better, Live More features conversations with leading experts about how small changes can lead to profound improvements in your health and happiness. Topics include nutrition, movement, sleep, relationships, and mental health.",
+  "category": "Health",
+  "host": "Dr. Rangan Chatterjee",
+  "url": "https://drchatterjee.com/podcast",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/0vFD3ZFcpgqPpZ1pDhvBLK",
+    "apple": "https://podcasts.apple.com/gb/podcast/feel-better-live-more-with-dr-rangan-chatterjee/id1333552422"
+  },
+  "features": [
+    "Holistic health approach",
+    "Practical lifestyle medicine",
+    "Diverse expert guests",
+    "Accessible health advice",
+    "Weekly episodes"
+  ],
+  "pros": [
+    "Actionable and easy to implement",
+    "Warm, compassionate approach",
+    "Covers physical and mental health"
+  ],
+  "cons": [
+    "Less technical depth than some",
+    "UK-focused at times"
+  ],
+  "rating": 4.7,
+  "episodeCount": 450,
+  "frequency": "Twice weekly",
+  "averageDuration": "70 minutes",
+  "firstEpisode": "2018-01-08",
+  "lastUpdated": "2026-02-24",
+  "tags": ["health", "wellness", "lifestyle", "medicine", "mental-health"]
+}

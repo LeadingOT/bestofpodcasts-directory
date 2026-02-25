@@ -1,0 +1,38 @@
+{
+  "name": "All-In Podcast",
+  "slug": "all-in-podcast",
+  "tagline": "Four industry leaders cover tech, markets, and politics",
+  "description": "The All-In podcast features four successful technology investors and entrepreneurs: Chamath Palihapitiya, Jason Calacanis, David Sacks, and David Friedberg. They discuss current events in tech, business, politics, and markets.",
+  "category": "Technology",
+  "host": "Chamath, Jason, Sacks, Friedberg",
+  "url": "https://www.allinpodcast.co",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/2IqXAVFR4e0Bmyjsdc8QzF",
+    "apple": "https://podcasts.apple.com/us/podcast/all-in-with-chamath-jason-sacks-friedberg/id1502871393",
+    "youtube": "https://www.youtube.com/@allin"
+  },
+  "features": [
+    "Insider tech and VC perspectives",
+    "Weekly news analysis",
+    "Political and economic commentary",
+    "Poker buddy chemistry",
+    "Video and audio versions"
+  ],
+  "pros": [
+    "Unique insider perspectives",
+    "Unfiltered opinions",
+    "Covers diverse topics"
+  ],
+  "cons": [
+    "Can be echo-chamber-y",
+    "Sometimes controversial takes",
+    "Long episodes"
+  ],
+  "rating": 4.5,
+  "episodeCount": 210,
+  "frequency": "Weekly",
+  "averageDuration": "120 minutes",
+  "firstEpisode": "2020-03-16",
+  "lastUpdated": "2026-02-24",
+  "tags": ["technology", "business", "venture-capital", "politics"]
+}

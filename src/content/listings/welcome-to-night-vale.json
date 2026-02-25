@@ -1,0 +1,37 @@
+{
+  "name": "Welcome to Night Vale",
+  "slug": "welcome-to-night-vale",
+  "tagline": "Twice-monthly podcast in the style of community updates for a small desert town",
+  "description": "Welcome to Night Vale is a podcast presented as a radio show for the fictional town of Night Vale, reporting on the strange events that occur within it. The show is performed in a style parodying local public radio, with a surreal, Lovecraftian twist.",
+  "category": "Fiction",
+  "host": "Cecil Baldwin",
+  "url": "https://www.welcometonightvale.com",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/3kNwHOnE5wJaXBW9TDa9Y4",
+    "apple": "https://podcasts.apple.com/us/podcast/welcome-to-night-vale/id536258179"
+  },
+  "features": [
+    "Scripted fiction podcast",
+    "Surreal horror comedy",
+    "Consistent narrative universe",
+    "Musical interludes",
+    "Live show recordings"
+  ],
+  "pros": [
+    "Unique and creative storytelling",
+    "Excellent voice acting",
+    "Builds a rich fictional world"
+  ],
+  "cons": [
+    "Not for everyone's taste",
+    "Can be confusing initially",
+    "Requires commitment to follow"
+  ],
+  "rating": 4.6,
+  "episodeCount": 250,
+  "frequency": "Twice monthly",
+  "averageDuration": "25 minutes",
+  "firstEpisode": "2012-06-15",
+  "lastUpdated": "2026-02-24",
+  "tags": ["fiction", "horror", "comedy", "creative", "scripted"]
+}

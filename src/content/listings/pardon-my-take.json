@@ -1,0 +1,37 @@
+{
+  "name": "Pardon My Take",
+  "slug": "pardon-my-take",
+  "tagline": "Sports, comedy, and ridiculous debates",
+  "description": "Pardon My Take is a three-time Podcast of the Year winner from Barstool Sports. Hosted by Big Cat and PFT Commenter, the show features interviews with the biggest names in sports, hilarious segments, and satire of sports media culture.",
+  "category": "Sports",
+  "host": "Big Cat & PFT Commenter",
+  "url": "https://www.barstoolsports.com/shows/pardon-my-take",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/5ss1pqMFqWjkOpt6Ag0fZW",
+    "apple": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+  },
+  "features": [
+    "Celebrity athlete interviews",
+    "Sports news satire",
+    "Multiple episodes per week",
+    "Fantasy football tips",
+    "Recurring comedy segments"
+  ],
+  "pros": [
+    "Hilarious and entertaining",
+    "Great athlete interviews",
+    "Consistent release schedule"
+  ],
+  "cons": [
+    "Bro humor not for everyone",
+    "Can be juvenile at times",
+    "Very US sports-focused"
+  ],
+  "rating": 4.6,
+  "episodeCount": 1850,
+  "frequency": "Three times weekly",
+  "averageDuration": "90 minutes",
+  "firstEpisode": "2016-02-29",
+  "lastUpdated": "2026-02-24",
+  "tags": ["sports", "comedy", "interviews", "football", "basketball"]
+}

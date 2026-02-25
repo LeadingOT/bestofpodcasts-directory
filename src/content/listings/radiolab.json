@@ -1,0 +1,36 @@
+{
+  "name": "Radiolab",
+  "slug": "radiolab",
+  "tagline": "Investigating a strange world through science, philosophy, and human experience",
+  "description": "Radiolab is a show about curiosity. Where sound illuminates ideas, and the boundaries blur between science, philosophy, and human experience. With original music and innovative sound design, Radiolab makes complex ideas accessible and entertaining.",
+  "category": "Education",
+  "host": "Lulu Miller & Latif Nasser",
+  "url": "https://radiolab.org",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/2hmkzUtix0qTqvtpPcMzEL",
+    "apple": "https://podcasts.apple.com/us/podcast/radiolab/id152249110"
+  },
+  "features": [
+    "Science and philosophy stories",
+    "Award-winning sound design",
+    "Innovative production",
+    "Thought-provoking topics",
+    "NPR quality journalism"
+  ],
+  "pros": [
+    "Exceptional storytelling and production",
+    "Makes complex topics accessible",
+    "Unique audio experience"
+  ],
+  "cons": [
+    "Can be heavy on sound effects",
+    "Some topics can be dark"
+  ],
+  "rating": 4.8,
+  "episodeCount": 520,
+  "frequency": "Weekly",
+  "averageDuration": "45 minutes",
+  "firstEpisode": "2002-06-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["education", "science", "philosophy", "storytelling", "npr"]
+}

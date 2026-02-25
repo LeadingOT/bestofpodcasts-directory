@@ -1,0 +1,36 @@
+{
+  "name": "My Favorite Murder",
+  "slug": "my-favorite-murder",
+  "tagline": "True crime comedy podcast that's both funny and respectful",
+  "description": "Hosted by Karen Kilgariff and Georgia Hardstark, My Favorite Murder combines true crime stories with comedy in a unique format. Each episode features the hosts sharing their favorite murder stories along with banter and community interaction.",
+  "category": "True Crime",
+  "host": "Karen Kilgariff & Georgia Hardstark",
+  "url": "https://myfavoritemurder.com",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/0U9S5J2ltMaKdxIfLuEjzE",
+    "apple": "https://podcasts.apple.com/us/podcast/my-favorite-murder/id1074507850"
+  },
+  "features": [
+    "True crime with humor",
+    "Active listener community",
+    "Weekly episodes",
+    "Live show recordings",
+    "Hometown murder stories"
+  ],
+  "pros": [
+    "Entertaining and engaging hosts",
+    "Strong community feel",
+    "Respectful treatment of victims"
+  ],
+  "cons": [
+    "Can be triggering for some listeners",
+    "Lots of off-topic banter"
+  ],
+  "rating": 4.6,
+  "episodeCount": 380,
+  "frequency": "Weekly",
+  "averageDuration": "90 minutes",
+  "firstEpisode": "2016-01-13",
+  "lastUpdated": "2026-02-24",
+  "tags": ["true-crime", "comedy", "community", "weekly"]
+}

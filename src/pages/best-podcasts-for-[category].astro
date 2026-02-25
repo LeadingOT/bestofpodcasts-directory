@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ListingCard from '../components/ListingCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const listings = await getCollection('listings');
+  const categories = [...new Set(listings.map((l) => l.data.category))];
+  return categories.map((cat) => ({
+    params: { category: cat.toLowerCase().replace(/\s+/g, '-') },
+    props: {
+      category: cat,
+      listings: listings.filter((l) => l.data.category === cat),
+    },
+  }));
+}
+
+const { category, listings } = Astro.props;
+const topRated = listings
+  .sort((a: any, b: any) => (b.data.rating || 0) - (a.data.rating || 0))
+  .slice(0, 5);
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `Best Podcasts for ${category}`,
+  description: `Find the best podcasts for ${category.toLowerCase()} in 2026.`,
+};
+---
+
+<BaseLayout
+  title={`Best Podcasts for ${category} | Top ${listings.length} Shows in 2026`}
+  description={`Looking for the best podcasts for ${category.toLowerCase()}? Discover ${listings.length} top-rated ${category.toLowerCase()} podcasts with reviews, ratings, and recommendations.`}
+  schema={schema}
+>
+  <article class="max-w-4xl mx-auto">
+    <header class="mb-8">
+      <h1 class="text-4xl font-bold mb-4">Best Podcasts for {category}</h1>
+      <p class="text-xl text-gray-600">
+        Looking for the best {category.toLowerCase()} podcasts? We've curated {listings.length} top-rated shows 
+        to help you find your next favorite listen in 2026.
+      </p>
+    </header>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-6">Top 5 {category} Podcasts</h2>
+      <div class="space-y-4">
+        {topRated.map((podcast: any, index: number) => (
+          <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <div class="flex items-start gap-4">
+              <span class="text-4xl font-bold text-gray-300">#{index + 1}</span>
+              <div class="flex-1">
+                <h3 class="text-2xl font-bold mb-2">
+                  <a href={`/listing/${podcast.data.slug}`} class="hover:text-blue-600">
+                    {podcast.data.name}
+                  </a>
+                </h3>
+                <p class="text-gray-600 mb-3">{podcast.data.description}</p>
+                <div class="flex items-center gap-4 mb-3">
+                  <span class="text-sm text-gray-500">Hosted by {podcast.data.host}</span>
+                  {podcast.data.rating && (
+                    <span class="text-sm text-yellow-600">★ {podcast.data.rating.toFixed(1)}</span>
+                  )}
+                  {podcast.data.frequency && (
+                    <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">{podcast.data.frequency}</span>
+                  )}
+                </div>
+                <p class="text-sm text-gray-700 mb-3"><strong>Why it's great:</strong> {podcast.data.tagline}</p>
+                {podcast.data.pros && podcast.data.pros.length > 0 && (
+                  <ul class="text-sm text-gray-600 list-disc list-inside">
+                    {podcast.data.pros.slice(0, 3).map((pro: string) => (
+                      <li>{pro}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-6">All {category} Podcasts ({listings.length})</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {listings.map((listing: any) => (
+          <ListingCard {...listing.data} />
+        ))}
+      </div>
+    </section>
+
+    <section class="prose prose-lg max-w-none mb-12">
+      <h2>How to Choose the Right {category} Podcast</h2>
+      <p>
+        With {listings.length} {category.toLowerCase()} podcasts to choose from, finding the right one depends on 
+        your preferences:
+      </p>
+      <ul>
+        <li><strong>Episode length:</strong> Do you prefer quick 20-minute episodes or deep 2-hour conversations?</li>
+        <li><strong>Host style:</strong> Solo narrator, interview format, or co-host banter?</li>
+        <li><strong>Frequency:</strong> Daily updates or weekly deep dives?</li>
+        <li><strong>Production quality:</strong> Highly produced with music and effects, or raw conversations?</li>
+      </ul>
+      <p>
+        Use our ratings and reviews to find shows that match your listening style. Each podcast page includes 
+        detailed information about episode length, frequency, and what makes it unique.
+      </p>
+
+      <h2>Why These Are the Best {category} Podcasts</h2>
+      <p>
+        Our rankings consider multiple factors:
+      </p>
+      <ul>
+        <li><strong>Listener ratings</strong> from thousands of reviews</li>
+        <li><strong>Production quality</strong> and audio clarity</li>
+        <li><strong>Consistency</strong> in release schedule</li>
+        <li><strong>Host expertise</strong> and interviewing skills</li>
+        <li><strong>Unique value</strong> compared to similar shows</li>
+      </ul>
+
+      <h2>Related Podcast Categories</h2>
+      <p>
+        Interested in exploring beyond {category.toLowerCase()}? Check out our full 
+        <a href="/categories">category directory</a> or read our guide to 
+        <a href="/blog/best-podcasts-2026">the best podcasts of 2026</a> across all genres.
+      </p>
+    </section>
+  </article>
+</BaseLayout>

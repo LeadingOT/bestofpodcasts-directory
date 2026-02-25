@@ -1,0 +1,37 @@
+{
+  "name": "Revolutions",
+  "slug": "revolutions",
+  "tagline": "A deep dive into the great political revolutions of history",
+  "description": "Mike Duncan's Revolutions podcast examines the great political revolutions that have shaped the modern world. From the English Civil War to the Russian Revolution, each season provides a detailed chronological narrative.",
+  "category": "History",
+  "host": "Mike Duncan",
+  "url": "https://thehistoryofrome.typepad.com/revolutions_podcast",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/02z8FrZhT66D9rqJ7Azz2F",
+    "apple": "https://podcasts.apple.com/us/podcast/revolutions/id703889772"
+  },
+  "features": [
+    "Season-long revolution narratives",
+    "Chronological deep dives",
+    "Accessible history",
+    "Weekly episodes",
+    "Comprehensive coverage"
+  ],
+  "pros": [
+    "Incredibly detailed and thorough",
+    "Excellent storytelling",
+    "Educational and entertaining"
+  ],
+  "cons": [
+    "Requires commitment to follow",
+    "Can be dense with dates/names",
+    "Concluded in 2022"
+  ],
+  "rating": 4.8,
+  "episodeCount": 350,
+  "frequency": "Archived (ended 2022)",
+  "averageDuration": "40 minutes",
+  "firstEpisode": "2013-09-02",
+  "lastUpdated": "2026-02-24",
+  "tags": ["history", "revolutions", "education", "political", "archived"]
+}

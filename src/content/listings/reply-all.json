@@ -1,0 +1,36 @@
+{
+  "name": "Reply All",
+  "slug": "reply-all",
+  "tagline": "Stories about how people shape the internet, and how the internet shapes people",
+  "description": "Reply All is a show about the internet that is actually an unfailingly original exploration of modern life and how to survive it. Hosted by PJ Vogt and Alex Goldman, the show features compelling stories about the internet and technology.",
+  "category": "Technology",
+  "host": "PJ Vogt & Alex Goldman",
+  "url": "https://gimletmedia.com/shows/reply-all",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/7gozmLqbcbr6PScMjc0Zl4",
+    "apple": "https://podcasts.apple.com/us/podcast/reply-all/id941907967"
+  },
+  "features": [
+    "Internet culture stories",
+    "Tech mysteries and investigations",
+    "Yes Yes No segment",
+    "Human-interest angles",
+    "Award-winning production"
+  ],
+  "pros": [
+    "Exceptional storytelling",
+    "Makes tech accessible and interesting",
+    "Funny and thoughtful"
+  ],
+  "cons": [
+    "Ended in 2023 (archives available)",
+    "Irregular release schedule when active"
+  ],
+  "rating": 4.8,
+  "episodeCount": 200,
+  "frequency": "Archived (ended 2023)",
+  "averageDuration": "50 minutes",
+  "firstEpisode": "2014-11-13",
+  "lastUpdated": "2026-02-24",
+  "tags": ["technology", "internet-culture", "storytelling", "archived"]
+}

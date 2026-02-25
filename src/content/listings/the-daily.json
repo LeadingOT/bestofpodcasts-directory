@@ -1,0 +1,36 @@
+{
+  "name": "The Daily",
+  "slug": "the-daily",
+  "tagline": "This is what the news should sound like",
+  "description": "The Daily is the flagship daily news podcast from The New York Times. Hosted by Michael Barbaro and Sabrina Tavernise, it brings you the biggest stories of our time, told through in-depth reporting and intimate interviews.",
+  "category": "News",
+  "host": "Michael Barbaro & Sabrina Tavernise",
+  "url": "https://www.nytimes.com/column/the-daily",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/3IM0lmZxpFAY7CwMuv9H4g",
+    "apple": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
+  },
+  "features": [
+    "Daily news analysis",
+    "NYT investigative reporting",
+    "In-depth single-story focus",
+    "Weekday releases",
+    "Pulitzer Prize-winning journalism"
+  ],
+  "pros": [
+    "High-quality journalism",
+    "Consistent daily format",
+    "Deep dives on important stories"
+  ],
+  "cons": [
+    "US-centric coverage",
+    "Can be heavy/depressing"
+  ],
+  "rating": 4.7,
+  "episodeCount": 2100,
+  "frequency": "Daily (weekdays)",
+  "averageDuration": "25 minutes",
+  "firstEpisode": "2017-01-30",
+  "lastUpdated": "2026-02-24",
+  "tags": ["news", "journalism", "daily", "current-events"]
+}

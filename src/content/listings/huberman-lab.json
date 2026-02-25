@@ -1,0 +1,38 @@
+{
+  "name": "Huberman Lab",
+  "slug": "huberman-lab",
+  "tagline": "Science-based tools for everyday life from a Stanford neuroscientist",
+  "description": "The Huberman Lab podcast is hosted by Dr. Andrew Huberman, a neuroscientist and professor at Stanford School of Medicine. The podcast discusses neuroscience and science-based tools for everyday life, including topics on sleep, focus, stress, and performance.",
+  "category": "Health",
+  "host": "Dr. Andrew Huberman",
+  "url": "https://hubermanlab.com",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/79CkJF3UJTHFV8Dse3Oy0P",
+    "apple": "https://podcasts.apple.com/us/podcast/huberman-lab/id1545953110",
+    "youtube": "https://www.youtube.com/@hubermanlab"
+  },
+  "features": [
+    "Science-backed health protocols",
+    "In-depth neuroscience explanations",
+    "Practical daily routines",
+    "Expert guest interviews",
+    "Free educational content"
+  ],
+  "pros": [
+    "Extremely detailed and evidence-based",
+    "Actionable health advice",
+    "Excellent communicator"
+  ],
+  "cons": [
+    "Episodes are very long (2-3 hours)",
+    "Can be overwhelming with detail",
+    "Sometimes too technical"
+  ],
+  "rating": 4.9,
+  "episodeCount": 190,
+  "frequency": "Weekly",
+  "averageDuration": "120 minutes",
+  "firstEpisode": "2021-01-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["health", "science", "neuroscience", "wellness", "education"]
+}

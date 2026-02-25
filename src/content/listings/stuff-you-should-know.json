@@ -1,0 +1,36 @@
+{
+  "name": "Stuff You Should Know",
+  "slug": "stuff-you-should-know",
+  "tagline": "If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks then look no further",
+  "description": "Josh and Chuck have you covered. Stuff You Should Know is a fun, informative podcast that explains how everything works. From the mundane to the extraordinary, Josh Clark and Charles W. Chuck Bryant make learning entertaining.",
+  "category": "Education",
+  "host": "Josh Clark & Chuck Bryant",
+  "url": "https://www.iheart.com/podcast/105-stuff-you-should-know-26940277",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/0ofXAdFIQQRsCYj9754UFx",
+    "apple": "https://podcasts.apple.com/us/podcast/stuff-you-should-know/id278981407"
+  },
+  "features": [
+    "Wide range of topics",
+    "Approachable explanations",
+    "Great host chemistry",
+    "Three episodes per week",
+    "Over 1800 episodes"
+  ],
+  "pros": [
+    "Entertaining and educational",
+    "Consistent quality",
+    "Massive back catalog"
+  ],
+  "cons": [
+    "Can be surface-level on complex topics",
+    "Some dated episodes"
+  ],
+  "rating": 4.6,
+  "episodeCount": 1850,
+  "frequency": "Three times weekly",
+  "averageDuration": "55 minutes",
+  "firstEpisode": "2008-04-01",
+  "lastUpdated": "2026-02-24",
+  "tags": ["education", "general-knowledge", "entertaining", "weekly"]
+}

@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const posts = [
+  {
+    slug: 'best-podcasts-2026',
+    title: 'The Best Podcasts of 2026: Must-Listen Shows Across All Categories',
+    excerpt: 'Discover the top podcasts dominating 2026 across true crime, business, comedy, health, and more.',
+    date: '2026-02-24',
+  },
+  {
+    slug: 'how-to-choose-podcast',
+    title: 'How to Choose the Perfect Podcast for You: A Complete Guide',
+    excerpt: 'Learn how to find podcasts that match your interests, schedule, and listening style.',
+    date: '2026-02-23',
+  },
+  {
+    slug: 'podcasts-vs-audiobooks',
+    title: 'Podcasts vs Audiobooks: Which is Right for You?',
+    excerpt: 'Compare podcasts and audiobooks to decide which audio format fits your lifestyle best.',
+    date: '2026-02-22',
+  },
+  {
+    slug: 'start-your-own-podcast',
+    title: 'How to Start Your Own Podcast in 2026: A Beginner\'s Guide',
+    excerpt: 'Everything you need to know to launch your podcast from equipment to distribution.',
+    date: '2026-02-21',
+  },
+];
+---
+
+<BaseLayout
+  title="Podcast Blog - Tips, Guides & Recommendations"
+  description="Expert guides on finding the best podcasts, starting your own show, and getting the most from your listening experience."
+>
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold mb-8">Podcast Blog</h1>
+    <div class="space-y-6">
+      {posts.map((post) => (
+        <article class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <time class="text-sm text-gray-500">{post.date}</time>
+          <h2 class="text-2xl font-bold mt-2 mb-3">
+            <a href={`/blog/${post.slug}`} class="hover:text-blue-600">
+              {post.title}
+            </a>
+          </h2>
+          <p class="text-gray-600 mb-4">{post.excerpt}</p>
+          <a href={`/blog/${post.slug}`} class="text-blue-600 hover:underline">
+            Read more →
+          </a>
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

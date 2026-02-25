@@ -1,0 +1,36 @@
+{
+  "name": "This American Life",
+  "slug": "this-american-life",
+  "tagline": "Award-winning radio show and podcast with themed stories",
+  "description": "This American Life is a weekly public radio show and podcast. Each week they choose a theme and put together different stories on that theme. The show has won numerous awards including Peabody Awards and is hosted by Ira Glass.",
+  "category": "Storytelling",
+  "host": "Ira Glass",
+  "url": "https://www.thisamericanlife.org",
+  "platforms": {
+    "spotify": "https://open.spotify.com/show/2iVJq8hAqNMYkOPmHNz64u",
+    "apple": "https://podcasts.apple.com/us/podcast/this-american-life/id201671138"
+  },
+  "features": [
+    "Weekly themed episodes",
+    "Multiple stories per episode",
+    "Peabody Award-winning",
+    "NPR production quality",
+    "Diverse story types"
+  ],
+  "pros": [
+    "Exceptional storytelling",
+    "Consistently high quality",
+    "Wide range of topics"
+  ],
+  "cons": [
+    "Can be emotionally heavy",
+    "US-focused perspectives"
+  ],
+  "rating": 4.8,
+  "episodeCount": 850,
+  "frequency": "Weekly",
+  "averageDuration": "60 minutes",
+  "firstEpisode": "1995-11-17",
+  "lastUpdated": "2026-02-24",
+  "tags": ["storytelling", "radio", "journalism", "npr", "weekly"]
+}

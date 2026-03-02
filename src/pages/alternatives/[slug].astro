@@ -29,9 +29,10 @@ const { tool, alternatives } = Astro.props;
 const count = alternatives.length;
 
 // Dynamic title based on tool characteristics (CoS CTR optimization)
+// Note: Podcasts don't have pricing, so we skip price-based logic
 const avgPrice = tool.pricing?.startingPrice ? parseInt(tool.pricing.startingPrice.replace(/[^0-9]/g, '')) : 0;
-const isExpensive = avgPrice > 100;
-const isPaid = tool.pricing?.model === 'paid';
+const isExpensive = false; // Podcasts are typically free
+const isPaid = false;
 
 let title;
 if (isExpensive && avgPrice > 0) {
@@ -141,7 +142,11 @@ const faqs = [
       <p class="text-gray-700 text-sm mb-2">{tool.tagline}</p>
       <div class="flex gap-4 text-sm text-gray-500">
         <span>Rating: <strong class="text-yellow-600">★ {tool.rating}</strong></span>
-        <span>Pricing: <strong>{tool.pricing.model}{tool.pricing.startingPrice ? ` from ${tool.pricing.startingPrice}` : ''}</strong></span>
+        {tool.pricing ? (
+          <span>Pricing: <strong>{tool.pricing.model}{tool.pricing.startingPrice ? ` from ${tool.pricing.startingPrice}` : ''}</strong></span>
+        ) : tool.frequency ? (
+          <span>Frequency: <strong>{tool.frequency}</strong></span>
+        ) : null}
       </div>
     </section>
 
@@ -163,7 +168,7 @@ const faqs = [
             <tr class="bg-blue-50 border-b">
               <td class="p-3 font-semibold">{tool.name} <span class="text-xs text-blue-600">(current)</span></td>
               <td class="p-3 text-yellow-600">★ {tool.rating}</td>
-              <td class="p-3">{tool.pricing.model}{tool.pricing.startingPrice ? ` from ${tool.pricing.startingPrice}` : ''}</td>
+              <td class="p-3">{tool.pricing ? `${tool.pricing.model}${tool.pricing.startingPrice ? ` from ${tool.pricing.startingPrice}` : ''}` : tool.frequency || 'Free'}</td>
               <td class="p-3">{tool.features.slice(0, 3).join(', ')}</td>
               <td class="p-3 text-center">
                 <a href={`/listing/${tool.slug}`} class="text-blue-600 hover:underline text-xs">View</a>
@@ -173,7 +178,7 @@ const faqs = [
               <tr class="border-b hover:bg-gray-50">
                 <td class="p-3 font-medium">{alt.name}</td>
                 <td class="p-3 text-yellow-600">★ {alt.rating}</td>
-                <td class="p-3">{alt.pricing.model}{alt.pricing.startingPrice ? ` from ${alt.pricing.startingPrice}` : ''}</td>
+                <td class="p-3">{alt.pricing ? `${alt.pricing.model}${alt.pricing.startingPrice ? ` from ${alt.pricing.startingPrice}` : ''}` : alt.frequency || 'Free'}</td>
                 <td class="p-3">{alt.features.slice(0, 3).join(', ')}</td>
                 <td class="p-3 text-center">
                   <a href={`/listing/${alt.slug}`} class="text-blue-600 hover:underline text-xs">View</a>

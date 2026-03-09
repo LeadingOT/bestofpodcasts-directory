@@ -2,7 +2,7 @@
   "name": "Huberman Lab",
   "slug": "huberman-lab",
   "tagline": "Science-based tools for everyday life from a Stanford neuroscientist",
-  "description": "The Huberman Lab podcast is hosted by Dr. Andrew Huberman, a neuroscientist and professor at Stanford School of Medicine. The podcast discusses neuroscience and science-based tools for everyday life, including topics on sleep, focus, stress, and performance.",
+  "description": "The Huberman Lab podcast, hosted by Dr. Andrew Huberman, a Stanford School of Medicine neuroscientist, translates complex research into actionable protocols for mental and physical health. It provides science-based explanations and direct tools for improving sleep, focus, stress management, learning, and physical performance. Each episode deeply explores a single topic, breaking down the underlying biology—such as the role of dopamine or neural plasticity—and offers specific, step-by-step recommendations for implementation.\n\nKey features include its rigorous adherence to peer-reviewed science, the provision of multi-tool protocols that combine behavioral, nutritional, and supplementation strategies, and detailed episode timestamps for easy navigation to sections of immediate interest. This podcast is for anyone seeking to understand the \"why\" behind health advice, including students, professionals, athletes, and individuals looking to make informed, long-term changes to their well-being.\n\nThe main benefit is gaining a foundational understanding of your own nervous system, empowering you to tailor and adjust routines based on evidence rather than trends. For example, a listener struggling with inconsistent sleep could learn not only the science of circadian rhythms but also receive a concrete protocol involving morning sunlight viewing, temperature regulation, and caffeine timing, enabling them to systematically improve their sleep quality.",
   "category": "Health",
   "host": "Dr. Andrew Huberman",
   "url": "https://hubermanlab.com",
@@ -34,5 +34,11 @@
   "averageDuration": "120 minutes",
   "firstEpisode": "2021-01-01",
   "lastUpdated": "2026-02-24",
-  "tags": ["health", "science", "neuroscience", "wellness", "education"]
+  "tags": [
+    "health",
+    "science",
+    "neuroscience",
+    "wellness",
+    "education"
+  ]
 }

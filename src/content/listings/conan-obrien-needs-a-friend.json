@@ -2,7 +2,7 @@
   "name": "Conan O'Brien Needs a Friend",
   "slug": "conan-obrien-needs-a-friend",
   "tagline": "Conan talks to interesting people about important things",
-  "description": "After 25 years at the Late Night desk, Conan realized that the only people at his holiday party are the men and women who work for him. Over the years and despite thousands of interviews, Conan has never made a real and lasting friendship with any of his celebrity guests.",
+  "description": "Conan O'Brien Needs a Friend is a weekly comedy podcast where Conan, alongside his assistant Sona Movsesian and producer Matt Gourley, conducts long-form, improvisational interviews with celebrities, comedians, and friends. The show’s premise stems from Conan’s realization that decades of short TV interviews never led to genuine connections, so he uses the podcast format to attempt to forge real friendships.\n\nKey features include the show’s signature improvised and meandering conversations, often venturing into absurd hypotheticals and personal anecdotes. The dynamic between Conan, Sona, and Matt provides a consistent comedic backbone with recurring segments and inside jokes. Another standout is the popular \"Fan Podcast\" episodes, where Conan and the team interact directly with listeners.\n\nThis podcast is for fans of conversational, improvisational comedy and long-time admirers of Conan’s specific comedic style. It’s ideal for listeners who enjoy personality-driven shows where the interview often becomes secondary to the hosts’ comedic banter.\n\nThe main benefit is consistent, high-quality comedy that feels like listening in on a fun, clever, and oddly heartfelt conversation among friends. A clear use case is during a commute or household chore, where the show’s relaxed pace and humor can transform a routine task into an entertaining break.",
   "category": "Comedy",
   "host": "Conan O'Brien",
   "url": "https://www.earwolf.com/show/conan-obrien/",
@@ -32,5 +32,10 @@
   "averageDuration": "60 minutes",
   "firstEpisode": "2018-11-18",
   "lastUpdated": "2026-02-24",
-  "tags": ["comedy", "interviews", "celebrities", "entertainment"]
+  "tags": [
+    "comedy",
+    "interviews",
+    "celebrities",
+    "entertainment"
+  ]
 }

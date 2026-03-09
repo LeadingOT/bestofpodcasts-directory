@@ -2,7 +2,7 @@
   "name": "All-In Podcast",
   "slug": "all-in-podcast",
   "tagline": "Four industry leaders cover tech, markets, and politics",
-  "description": "The All-In podcast features four successful technology investors and entrepreneurs: Chamath Palihapitiya, Jason Calacanis, David Sacks, and David Friedberg. They discuss current events in tech, business, politics, and markets.",
+  "description": "The All-In Podcast is a weekly conversation where four prominent technology investors and entrepreneurs—Chamath Palihapitiya, Jason Calacanis, David Sacks, and David Friedberg—analyze the intersection of technology, business, politics, and financial markets. It provides listeners with a high-level, insider perspective on the forces shaping the economy and innovation landscape. The show dissects complex current events, from macroeconomic trends and startup ecosystems to regulatory shifts and geopolitical issues, translating them into actionable insights.\n\nKey features include the diverse expertise of the hosts, who bring distinct viewpoints from venture capital, social media, enterprise software, and climate technology. The format is an unfiltered, deep-dive discussion that often explores the second and third-order consequences of news headlines. Another standout feature is the regular \"Picks\" segment, where each host recommends a specific product, service, or idea they find valuable.\n\nThis podcast is for founders, executives, investors, and any professional who needs to understand the broader context in which their business operates. The main benefit is gaining a nuanced, multi-faceted understanding of market dynamics to inform better strategic and investment decisions.\n\nA clear use case is a startup founder listening to an episode analyzing Federal Reserve policy. The discussion would help them understand potential impacts on fundraising, customer spending, and hiring, allowing them to proactively adjust their business strategy for the coming quarters.",
   "category": "Technology",
   "host": "Chamath, Jason, Sacks, Friedberg",
   "url": "https://www.allinpodcast.co",
@@ -34,5 +34,10 @@
   "averageDuration": "120 minutes",
   "firstEpisode": "2020-03-16",
   "lastUpdated": "2026-02-24",
-  "tags": ["technology", "business", "venture-capital", "politics"]
+  "tags": [
+    "technology",
+    "business",
+    "venture-capital",
+    "politics"
+  ]
 }

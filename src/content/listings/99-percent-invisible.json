@@ -2,7 +2,7 @@
   "name": "99% Invisible",
   "slug": "99-percent-invisible",
   "tagline": "A tiny radio show about design, architecture & the 99% invisible activity that shapes our world",
-  "description": "99% Invisible is about all the thought that goes into the things we don't think about — the unnoticed architecture and design that shape our world. Hosted by Roman Mars, it's one of the most popular architecture and design shows ever.",
+  "description": "99% Invisible is a highly acclaimed podcast that explores the often-overlooked aspects of design, architecture, and infrastructure in our everyday world. Hosted by Roman Mars, the show investigates the thought and intention behind the made environment, from the layout of cities and the design of everyday objects to the complex systems that operate just out of sight. It makes the invisible 99% of design work visible and understandable.\n\nKey features include its deeply researched storytelling, which transforms niche topics into compelling narratives for a general audience. The production quality is exceptional, with clear, engaging audio design. The extensive back catalog offers hundreds of episodes, providing a rich library of content on diverse subjects like urban planning, sound design, and material science.\n\nThis tool is ideal for curious learners, design enthusiasts, students of architecture or urban studies, and professionals in creative fields seeking inspiration. It’s also perfect for anyone who wants to better understand the functionality and history of the world around them.\n\nThe main benefit is gaining a new lens through which to view your surroundings, fostering a greater appreciation for the deliberate choices that shape daily life. A clear use case is for a commuter: listening to an episode on subway tile patterns or highway design transforms a routine trip into an engaging lesson in design history and civic engineering, making the journey more interesting and informative.",
   "category": "Education",
   "host": "Roman Mars",
   "url": "https://99percentinvisible.org",
@@ -32,5 +32,10 @@
   "averageDuration": "35 minutes",
   "firstEpisode": "2010-09-29",
   "lastUpdated": "2026-02-24",
-  "tags": ["education", "design", "architecture", "storytelling"]
+  "tags": [
+    "education",
+    "design",
+    "architecture",
+    "storytelling"
+  ]
 }

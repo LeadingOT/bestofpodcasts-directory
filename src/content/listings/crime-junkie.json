@@ -2,7 +2,7 @@
   "name": "Crime Junkie",
   "slug": "crime-junkie",
   "tagline": "Concise true crime stories you can binge in one sitting",
-  "description": "Crime Junkie is a weekly podcast hosted by Ashley Flowers, dedicated to giving you a true crime fix. Each episode covers a different true crime case with detailed research presented in a clear, engaging format.",
+  "description": "Crime Junkie is a weekly true crime podcast hosted by Ashley Flowers that delivers in-depth explorations of a different criminal case each episode. It functions as a thoroughly researched narrative source, transforming complex police investigations, trials, and victim stories into a structured and easy-to-follow audio format. The show is designed for true crime enthusiasts, casual listeners seeking engaging stories, and anyone interested in the procedural and human elements of real-life cases. Its main benefit is providing a reliable, consistently high-quality dose of true crime content that is both informative and respectfully presented.\n\nKey features include its strict weekly schedule, ensuring listeners have a regular true crime fix to anticipate. The presentation is a standout, with Ashley Flowers delivering detailed research in a clear, conversational tone that builds suspense while maintaining clarity. Furthermore, the podcast often highlights lesser-known cases and includes updates on older episodes when new information emerges.\n\nA typical use case is a listener during their daily commute or while doing household chores. They can immerse themselves in a single, complete story—from the initial crime and investigation to the resolution and broader implications—arriving at their destination or finishing a task feeling both entertained and more knowledgeable about the case.",
   "category": "True Crime",
   "host": "Ashley Flowers",
   "url": "https://crimejunkiepodcast.com",
@@ -32,5 +32,10 @@
   "averageDuration": "45 minutes",
   "firstEpisode": "2017-12-16",
   "lastUpdated": "2026-02-24",
-  "tags": ["true-crime", "weekly", "focused", "binge-worthy"]
+  "tags": [
+    "true-crime",
+    "weekly",
+    "focused",
+    "binge-worthy"
+  ]
 }

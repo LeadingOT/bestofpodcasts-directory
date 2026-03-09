@@ -2,7 +2,7 @@
   "name": "Feel Better, Live More",
   "slug": "feel-better-live-more",
   "tagline": "Practical health advice from a practicing physician",
-  "description": "Hosted by Dr. Rangan Chatterjee, Feel Better, Live More features conversations with leading experts about how small changes can lead to profound improvements in your health and happiness. Topics include nutrition, movement, sleep, relationships, and mental health.",
+  "description": "Feel Better, Live More is a long-form podcast hosted by Dr. Rangan Chatterjee, a practicing GP and bestselling author. It provides in-depth, evidence-based conversations with world-leading health experts across diverse fields. The core purpose is to translate complex health science into actionable, practical advice that listeners can apply to their daily lives. The show systematically explores the interconnected pillars of well-being, including nutrition, physical movement, sleep, stress management, and relationships.\n\nKey features include its long-form interview format, allowing for deep dives into topics beyond superficial tips, and Dr. Chatterjee’s role as a relatable guide who asks clarifying questions on behalf of the audience. The podcast also offers a comprehensive back catalog of over 400 episodes, creating a vast library of health knowledge.\n\nThis tool is for individuals seeking to take a proactive and holistic approach to their health, feeling overwhelmed by conflicting information and looking for trustworthy, nuanced guidance from credible sources. The main benefit is gaining a clearer understanding of how different aspects of health influence each other, empowering you to make sustainable, small changes with a significant cumulative impact.\n\nA clear use case is someone struggling with low energy and stress. Instead of just seeking a quick fix, they could listen to episodes on sleep hygiene to improve rest, interviews on manageable movement to boost energy, and discussions on stress-reduction techniques, creating a coordinated approach to address the root causes.",
   "category": "Health",
   "host": "Dr. Rangan Chatterjee",
   "url": "https://drchatterjee.com/podcast",
@@ -32,5 +32,11 @@
   "averageDuration": "70 minutes",
   "firstEpisode": "2018-01-08",
   "lastUpdated": "2026-02-24",
-  "tags": ["health", "wellness", "lifestyle", "medicine", "mental-health"]
+  "tags": [
+    "health",
+    "wellness",
+    "lifestyle",
+    "medicine",
+    "mental-health"
+  ]
 }

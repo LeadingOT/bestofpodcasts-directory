@@ -2,7 +2,7 @@
   "name": "Morbid: A True Crime Podcast",
   "slug": "morbid",
   "tagline": "True crime with a comedic twist from an autopsy technician and podcaster",
-  "description": "Morbid is a true crime podcast hosted by an autopsy technician and a hairstylist. Ash and Alaina bring their unique perspectives to true crime stories, mixing detailed research with humor and empathy for victims.",
+  "description": "Morbid is a weekly true crime podcast that delivers in-depth explorations of both infamous and lesser-known criminal cases. Hosted by Alaina, an autopsy technician, and Ash, a hairstylist, the show dissects the details of each story through a unique dual lens of scientific curiosity and empathetic, human-centric analysis. The podcast’s primary function is to present thoroughly researched narratives that honor victims while engaging a dedicated listener community.\n\nKey features include the hosts' professional backgrounds, which allow for insightful commentary on forensic evidence and victim profiles. Their approach balances comprehensive research with relatable dialogue, often incorporating listener-generated \"Listener Tales\" episodes. The dynamic between Alaina’s detailed storytelling and Ash’s immediate reactions creates an authentic and immersive experience.\n\nThis podcast is for true crime enthusiasts who appreciate thorough case examinations but also value a conversational tone that includes respectful humor and genuine empathy. It is ideal for listeners who seek a sense of connection and community within the genre.\n\nThe main benefit is a consistently engaging and well-researched deep dive that feels like listening to two knowledgeable friends. A clear use case is during a daily commute or while completing household tasks, where the hosts' compelling storytelling transforms routine time into an absorbing investigative experience.",
   "category": "True Crime",
   "host": "Ash Kelley & Alaina Urquhart",
   "url": "https://www.audioboom.com/channel/morbid",
@@ -33,5 +33,10 @@
   "averageDuration": "90 minutes",
   "firstEpisode": "2018-05-01",
   "lastUpdated": "2026-02-24",
-  "tags": ["true-crime", "comedy", "investigation", "weekly"]
+  "tags": [
+    "true-crime",
+    "comedy",
+    "investigation",
+    "weekly"
+  ]
 }

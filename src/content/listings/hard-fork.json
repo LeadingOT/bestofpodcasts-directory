@@ -2,7 +2,7 @@
   "name": "Hard Fork",
   "slug": "hard-fork",
   "tagline": "The New York Times tech podcast about Silicon Valley and beyond",
-  "description": "Hard Fork is a show about the future that's already here. Each week, journalists Kevin Roose and Casey Newton explore and make sense of the latest in the rapidly changing world of tech.",
+  "description": "Hard Fork is a weekly podcast that provides in-depth analysis and explanation of the most significant developments in technology and digital culture. Hosted by experienced New York Times journalists Kevin Roose and Casey Newton, the show breaks down complex news—from artificial intelligence and social media policy to cryptocurrency and antitrust lawsuits—into clear, engaging conversations. It serves as an essential guide for anyone needing to understand how tech trends impact business, society, and daily life.\n\nKey features include the hosts’ direct access to industry leaders and newsmakers, providing listeners with firsthand insights. The show’s format balances detailed reporting with approachable discussion, often debating the implications of the news they cover. A standout segment is their weekly “Win/Fail/Learn,” which offers a concise, critical take on recent events.\n\nThis tool is for professionals, students, and curious individuals who must stay informed on tech but lack the time to sift through fragmented news sources. The main benefit is receiving a consolidated, expert-filtered perspective that saves time and provides deeper context.\n\nA clear use case is a manager preparing for a strategic meeting on AI adoption. By listening to Hard Fork’s episodes on recent AI regulations and product launches, they gain a well-rounded understanding of the current landscape, enabling more informed contributions to the discussion.",
   "category": "Technology",
   "host": "Kevin Roose & Casey Newton",
   "url": "https://www.nytimes.com/column/hard-fork",
@@ -32,5 +32,11 @@
   "averageDuration": "55 minutes",
   "firstEpisode": "2022-10-13",
   "lastUpdated": "2026-02-24",
-  "tags": ["technology", "ai", "silicon-valley", "journalism", "weekly"]
+  "tags": [
+    "technology",
+    "ai",
+    "silicon-valley",
+    "journalism",
+    "weekly"
+  ]
 }

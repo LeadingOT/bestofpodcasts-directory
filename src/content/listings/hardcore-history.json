@@ -2,7 +2,7 @@
   "name": "Hardcore History",
   "slug": "hardcore-history",
   "tagline": "Epic, in-depth historical narratives from Dan Carlin",
-  "description": "Dan Carlin's Hardcore History is a podcast that takes epic historical events and brings them to life through compelling multi-hour narratives. Each series is like an audiobook, with meticulous research and dramatic storytelling.",
+  "description": "Hardcore History is a long-form podcast where host Dan Carlin masterfully reconstructs pivotal moments from humanity's past. It transforms complex historical events into immersive audio experiences, often spanning several hours per episode or across multi-part series. Carlin acts as a deeply informed guide, blending rigorous research with a narrative, almost cinematic, style of delivery that emphasizes the human drama and scale of historical turning points.\n\nThe show is built around several key features. First is its deep-dive format, allowing for comprehensive exploration of contexts, causes, and consequences that shorter formats cannot cover. Second is Carlin's unique perspective and questioning approach; he often frames events through the lens of how people at the time experienced them, asking \"what would it have been like to be there?\" Third is the meticulous synthesis of primary and secondary sources, which Carlin weaves together into a cohesive story rather than a dry recitation of facts.\n\nThis podcast is for history enthusiasts, students, commuters, and anyone curious about the forces that shaped our world. It suits listeners who prefer substantive, thought-provoking content and enjoy getting fully absorbed in a topic. The main benefit is gaining a profound, nuanced understanding of historical events that feels both intellectually satisfying and emotionally resonant.\n\nA clear use case is preparing for a visit to a significant historical site. For instance, listening to the \"Blueprint for Armageddon\" series on World War I before visiting battlefields in Europe provides immense context, making the experience far more meaningful by understanding the strategies, personal stories, and immense cost of the conflict.",
   "category": "History",
   "host": "Dan Carlin",
   "url": "https://www.dancarlin.com/hardcore-history-series",
@@ -33,5 +33,10 @@
   "averageDuration": "240 minutes",
   "firstEpisode": "2006-03-01",
   "lastUpdated": "2026-02-24",
-  "tags": ["history", "storytelling", "epic", "educational"]
+  "tags": [
+    "history",
+    "storytelling",
+    "epic",
+    "educational"
+  ]
 }

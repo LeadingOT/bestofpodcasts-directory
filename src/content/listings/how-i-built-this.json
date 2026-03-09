@@ -2,7 +2,7 @@
   "name": "How I Built This",
   "slug": "how-i-built-this",
   "tagline": "Inspiring stories from the world's best-known entrepreneurs",
-  "description": "Guy Raz dives into the stories behind some of the world's best known companies. How I Built This weaves a narrative journey about innovators, entrepreneurs and idealists—and the movements they built.",
+  "description": "How I Built This is a podcast hosted by Guy Raz that provides a detailed, narrative look at the origins of influential companies and brands. It does this through long-form interviews with founders, exploring the real-life challenges, pivotal decisions, and often unexpected journeys behind their success. The show moves beyond simple success stories to reveal the practical hurdles and personal sacrifices involved in building a business.\n\nKey features include its in-depth, conversational interviews that often last over an hour, allowing for comprehensive storytelling. It covers a wide range of companies, from globally recognized names like Airbnb and Spanx to beloved niche brands. The archive also includes \"How You Built That,\" featuring smaller startups and solo entrepreneurs.\n\nThis tool is for aspiring entrepreneurs, business students, current founders, and anyone interested in the human stories behind products they use. The main benefit is gaining actionable insights and motivation from candid accounts of perseverance, strategy, and problem-solving, without encountering polished corporate myths.\n\nA standout use case is a new founder feeling isolated in their early struggles. Listening to an episode about a now-successful company’s near-failures or early rejections provides both practical lessons in resilience and the reassurance that such challenges are a normal part of the process.",
   "category": "Business",
   "host": "Guy Raz",
   "url": "https://www.npr.org/podcasts/510313/how-i-built-this",
@@ -32,5 +32,10 @@
   "averageDuration": "60 minutes",
   "firstEpisode": "2016-09-05",
   "lastUpdated": "2026-02-24",
-  "tags": ["business", "entrepreneurship", "inspiration", "interviews"]
+  "tags": [
+    "business",
+    "entrepreneurship",
+    "inspiration",
+    "interviews"
+  ]
 }

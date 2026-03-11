@@ -143,7 +143,7 @@ const faqs = [
       <div class="flex gap-4 text-sm text-gray-500">
         <span>Rating: <strong class="text-yellow-600">★ {tool.rating}</strong></span>
         {tool.pricing ? (
-          <span>Pricing: <strong>{tool.pricing.model}{tool.pricing.startingPrice ? ` from ${tool.pricing.startingPrice}` : ''}</strong></span>
+          <span>Pricing: <strong>{tool.pricing.model}{tool.pricing?.startingPrice ? ` from ${tool.pricing?.startingPrice}` : ''}</strong></span>
         ) : tool.frequency ? (
           <span>Frequency: <strong>{tool.frequency}</strong></span>
         ) : null}
@@ -168,7 +168,7 @@ const faqs = [
             <tr class="bg-blue-50 border-b">
               <td class="p-3 font-semibold">{tool.name} <span class="text-xs text-blue-600">(current)</span></td>
               <td class="p-3 text-yellow-600">★ {tool.rating}</td>
-              <td class="p-3">{tool.pricing ? `${tool.pricing.model}${tool.pricing.startingPrice ? ` from ${tool.pricing.startingPrice}` : ''}` : tool.frequency || 'Free'}</td>
+              <td class="p-3">{tool.pricing ? `${tool.pricing.model}${tool.pricing?.startingPrice ? ` from ${tool.pricing?.startingPrice}` : ''}` : tool.frequency || 'Free'}</td>
               <td class="p-3">{tool.features.slice(0, 3).join(', ')}</td>
               <td class="p-3 text-center">
                 <a href={`/listing/${tool.slug}`} class="text-blue-600 hover:underline text-xs">View</a>

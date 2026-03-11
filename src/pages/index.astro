@@ -13,12 +13,21 @@ const schema = {
   description: 'Discover the best podcasts across all categories - from true crime to business, comedy to education',
   url: Astro.url.origin,
 };
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Podcasts 2026",
+  "description": "Compare and review the top 25 tools in this category",
+  "numberOfItems": 25,
+  "url": "https://bestofpodcasts.com"
+};
 ---
 
 <BaseLayout
   title="Best of Podcasts 2026 - Find Your Next Favorite Show"
   description="Discover the best podcasts of 2026 across all categories. Find top-rated shows in true crime, business, comedy, health, technology, and more. Updated regularly with ratings and reviews."
-  schema={schema}
+  schema={itemListSchema}
 >
   <!-- Hero -->
   <section class="text-center py-12">

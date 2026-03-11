@@ -1,0 +1,29 @@
+# Best of Podcasts
+
+> Directory of top podcasts across all categories
+
+## Categories
+
+- [True Crime](/category/true-crime): Crime investigations and mysteries
+- [Business](/category/business): Entrepreneurship and startups
+- [Comedy](/category/comedy): Stand-up and comedy shows
+- [Technology](/category/technology): Tech news and programming
+- [Health & Fitness](/category/health-&-fitness): Wellness and nutrition
+
+## Comparison Guides
+
+- [Best True Crime Podcasts](/best/best-true-crime-podcasts)
+- [Best Business Podcasts for Entrepreneurs](/best/best-business-podcasts-for-entrepreneurs)
+- [Top Comedy Podcasts 2026](/best/top-comedy-podcasts-2026)
+
+## Key Facts
+
+- 25 tools reviewed and compared
+- 5 categories covering all types
+- 3 in-depth comparison guides
+- Updated March 2026
+- Independent reviews — not sponsored
+
+## Sitemap
+
+- [Sitemap](https://#{domain}/sitemap-index.xml)

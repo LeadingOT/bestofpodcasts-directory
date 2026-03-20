@@ -27,6 +27,8 @@ const schema = {
   description: `Find the best podcasts for ${category.toLowerCase()} in 2026.`,
 };
 ---
+export const prerender = true;
+
 
 <BaseLayout
   title={`Best Podcasts for ${category} | Top ${listings.length} Shows in 2026`}

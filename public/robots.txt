@@ -60,4 +60,4 @@ User-agent: ImagesiftBot
 Allow: /
 Disallow: /api/
 
-Sitemap: https://bestofpodcasts.com/sitemap.xml
+Sitemap: https://bestofpodcasts.com/sitemap-index.xml

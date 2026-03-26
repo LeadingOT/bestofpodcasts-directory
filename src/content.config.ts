@@ -30,6 +30,8 @@ const listings = defineCollection({
     firstEpisode: z.string().optional(), // 首播日期
     lastUpdated: z.string(),
     tags: z.array(z.string()),
+    seoTitle: z.string().optional(),
+    seoDescription: z.string().optional(),
   }),
 });
 

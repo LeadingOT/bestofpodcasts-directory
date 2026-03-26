@@ -52,3 +52,4 @@ export default defineConfig({
 - **Styling:** TailwindCSS 4.0
 - **Content:** Markdown & JSON Collections
 - **Deployment:** Vercel (Serverless/Static)
+
